@@ -1,0 +1,31 @@
+body{
+	
+	background:grey;
+}
+header{
+}
+}
+	.image1{
+		position:relative;
+	left:100px;}
+	
+	.image1 img{
+	max-width:100%;
+	}
+	.image97  img{
+		
+		max-width:100%;
+	}
+
+h1{
+	color:black;
+}
+p{
+	color:black;
+}
+.welcome{
+	
+	position:absolute;
+	left:100px;
+	top:100px;
+}
