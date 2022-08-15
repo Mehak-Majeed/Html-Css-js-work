@@ -2,9 +2,7 @@ body,ul,li,h1,h2,a{
 margin:0px;
 padding:0px;
 font-family:arial;
-
 }
-
 
 
 
@@ -23,7 +21,7 @@ header h1{
 
 
 .image1 img{
-		max-width: 50.6% !important;
+		max-width: 50% !important;
 	}
 	.image1 img:hover{
 		
@@ -35,7 +33,6 @@ header h1{
     justify-content: center;
     flex-direction: row;
 	position:relative;
-	overflow: hidden;
 }
 .footerparent{
 	    display: flex;
@@ -54,7 +51,8 @@ header{
 	padding:30px;
 	text-align:center;
 	position:fixed;
-	width:100%;
+	max-width: 100%;
+    min-width: 100%;
 	z-index:1;
 	    top: 0px;
     left: 0px;
@@ -75,6 +73,10 @@ header{
 	.child3:hover,.child4:hover{
 		position:relative;
 		top:-4px;
+	}
+	.child3,.child4{
+		    max-width: 49%;
+			min-width:49%
 	}
 
 h1{
@@ -119,7 +121,7 @@ nav{
 nav li{
 	
 display:inline-block;
-	width:25%;
+	min-width:25%;
 	font-size:24px;
 }
 nav li a.kashmir{
@@ -150,7 +152,9 @@ nav li a.ladakh{
     gap: 83px;
 	
 }
-
+article{
+	padding-left: 16px;
+}
 article h2{
 	color:#741515;;
 	font-size:48px;
@@ -183,6 +187,7 @@ article p{
 .Top-nav{
 	      margin-left: 0px;
     max-width: 94%;
+	 min-width: 94%;
     gap: 66px;
     display: flex;
     justify-content: flex-start;
@@ -201,6 +206,7 @@ article p{
 	padding-right:3px;
 }
 .parent {
+	    padding-left: 9px;
 	display: flex;
     justify-content: space-evenly;
     flex-direction: inherit;
