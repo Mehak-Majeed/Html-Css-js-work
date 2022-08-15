@@ -1,8 +1,9 @@
 
-function submitFun(){
+function autoFun(){
 	alert('you submitted ')
 	var emailValue = document.getElementById("emailid").value;
-	alert(emailValue)
+	var auto = document.getElementById("nav-menu");
+	alert(auto)
 }
 /*
 nav ul{

@@ -271,7 +271,20 @@ form input:focus{
 	
 }
 form button:focus{
-	border:4px dashed black;
+border:4px dashed black;}
+
+.icon{
+	float:'left';
+	
+}
+.icon img{      max-width: 43px !important;
+}
+.Kash{
+	display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+	
+}
 	
 
 	
