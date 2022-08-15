@@ -267,10 +267,7 @@ form input:focus{
 form button:focus{
 	border:4px dashed black;
 	
-}
-footerparent p::first-letter{
-	font-size:1.5em;
+
 	
 	
 	
-}
