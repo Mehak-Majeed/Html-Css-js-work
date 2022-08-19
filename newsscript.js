@@ -10,13 +10,13 @@ function Fun() {
 	 
 	  lists.style.display='none'
 	  tm.style.minWidth='20px'
-	 
+	 document.getElementById('header1').style.marginRight='-13px';
 	   tm.style.borderLeft='none';
 		       tm.style.background='none';
   }
   else if(lists.style.display!=='block'){
-	  document.getElementById('header1').style.fontSize='51px';
-	  document.getElementById('header1').style.marginRight= '-401px';
+	  document.getElementById('header1').style.fontSize='76px';
+	  document.getElementById('header1').style.marginRight= '-195px';
 	   lists.style.display='block';
 	   tm.style.minWidth='300px';
 	      tm.style.borderLeft=' 5px solid #9c27b0';
