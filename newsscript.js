@@ -16,12 +16,12 @@ function Fun() {
   }
   else if(lists.style.display!=='block'){
 	  document.getElementById('header1').style.fontSize='51px';
-	  document.getElementById('header1').style.marginRight: '-401px';
+	  document.getElementById('header1').style.marginRight= '-401px';
 	   lists.style.display='block';
 	   tm.style.minWidth='300px';
 	      tm.style.borderLeft=' 5px solid #9c27b0';
 		       tm.style.background=' #d19bd1';
-			   tm.style.marginTop= '-86px';
+			   tm.style.marginTop='-86px';
 	   
   }
   

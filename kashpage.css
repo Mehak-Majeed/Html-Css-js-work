@@ -8,6 +8,7 @@ background-color: #c76363;
 .header{
 	display: flex;
     justify-content: center;
+	font-style:italic;
 }
 #header1{
     font-size: 84px;
