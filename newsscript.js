@@ -15,10 +15,12 @@ function Fun() {
 		       tm.style.background='none';
   }
   else if(lists.style.display!=='block'){
-	   lists.style.display='block'
-	   tm.style.minWidth='300px'
+	  document.getElementById('header1').style.fontSize='55px';
+	   lists.style.display='block';
+	   tm.style.minWidth='300px';
 	      tm.style.borderLeft=' 5px solid #9c27b0';
 		       tm.style.background=' #d19bd1';
+			   tm.style.marginTop= '-86px';
 	   
   }
   

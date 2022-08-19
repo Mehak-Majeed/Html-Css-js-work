@@ -107,6 +107,7 @@ img{
     box-sizing: initial;
     transition: 0.5s width;
 	margin-top: -127px;
+	margin-left: 20px;
 }
  }
  .navigation ul{
