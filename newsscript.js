@@ -15,7 +15,8 @@ function Fun() {
 		       tm.style.background='none';
   }
   else if(lists.style.display!=='block'){
-	  document.getElementById('header1').style.fontSize='55px';
+	  document.getElementById('header1').style.fontSize='51px';
+	  document.getElementById('header1').style.marginRight: '-401px';
 	   lists.style.display='block';
 	   tm.style.minWidth='300px';
 	      tm.style.borderLeft=' 5px solid #9c27b0';
