@@ -13,7 +13,8 @@ background-color: #c76363;
     font-size: 84px;
 	margin-bottom: 30px;
 	border-radius:10px;
-	margin-right:-213px;
+	    margin-right: -13px;
+
 	    color: #8663a5;
     text-shadow: -0.1em 0.19em 0.1232em #d59fd5;
 }
@@ -108,6 +109,7 @@ img{
     transition: 0.5s width;
 	margin-top: -127px;
 	margin-left: 20px;
+	    
 }
  }
  .navigation ul{
@@ -128,6 +130,8 @@ img{
 	 width:100%;
 	 text-decoration:none;
 	 padding: 11px;
+	     padding-top: 37px;
+    padding-bottom: 37px;
 	 
 	 
 	 
@@ -152,8 +156,8 @@ img{
 	 }
  .menu-button .one,.two,.three{
 	     margin-top: 0.3em;
-	     height: 2px;
-    width: 24px;
+	     height: 10px;
+    width: 60px;
     background: #9c27b0;
  }
 .navigation .list:hover{  
